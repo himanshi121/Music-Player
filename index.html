@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+<body>
+       <div id="container">
+
+        <div id="audio-wrapper">
+            <div id="song-image">
+                <img id="image" src="https://m.media-amazon.com/images/I/81mNRm3F6KL._SS500_.jpg" alt="album-cover">
+            </div>
+            <div id="audio-wp">
+                <audio id ="audio-player" loop>
+                <source src="https://edyoda.s3.ap-south-1.amazonaws.com/public/musicfiles/without-you.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div id="progress-bar">
+                <div id="progress">
+
+                </div>
+
+            </div>
+            <div id="icons">
+                <div class="icn" id="shuffle"><i class="fa-solid fa-shuffle"></i></div>
+                <div class="icn" id="back"><i  class="fa-solid fa-backward-step"></i></div>
+                <div class="icn" id="play"><i class="fa-regular fa-circle-play"></i></div>
+                <div class="icn" id="next"><i class="fa-solid fa-forward-step"></i></div>
+                <div class="icn" id="repeat"><i class="fa-solid fa-rotate-left"></i></div>
+                
+            </div>
+
+        <div id="song-track">Without You</div>
+        <div id="song-artist">Avicii</div>
+        </div>
+         <div id ="vl"></div>
+         <!-- //id="songs-wrapper" -->
+        
+        <div  class="scrollbar" id="style-4" >
+            <div class="force-overflow"></div>
+            <div id="songs-wrapper"></div>
+            <!-- <div id="song-card">
+                <div id="songimg">
+                    <img id="simage" src="https://m.media-amazon.com/images/I/81mNRm3F6KL._SS500_.jpg" alt="album-cover ">
+                </div>
+                <div id="song-info">
+                    <div id="song-track1">Without You</div>
+                    <div id="song-artist1">Avicii</div>
+                </div>
+            </div>
+            <div id="hr"><hr></div> -->
+        
+        </div>
+        
+            
+       
+        
+       <!-- </div> -->
+    </div>
+<script src="script.js"></script>   
+</body>
+</html>
